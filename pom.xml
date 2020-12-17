@@ -12,6 +12,7 @@
         <module>cloudalibaba-provider-payment9002</module>
         <module>cloudalibaba-consumer-order83</module>
         <module>cloudalibaba-config-client9010</module>
+        <module>cloudalibaba-sentinel-service9020</module>
     </modules>
     <packaging>pom</packaging>
 
