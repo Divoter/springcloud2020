@@ -9,8 +9,11 @@ spring:
       config:
         server-addr: localhost:8848
         file-extension: yaml
+        group: DEFAULT_GROUP
+        namespace: public
       discovery:
         server-addr: localhost:8848
 
-# ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
-# nacos-config-client-dev.yaml
+# Data Id 规则: ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
+# Data Id : nacos-config-client-dev.yaml
+# nacos 作为配置中心的隔离规则 namespace -> group -> Data Id
