@@ -1,7 +1,7 @@
 package com.divoter.springcloud.sentinel.myHandler;
 
 import com.alibaba.csp.sentinel.slots.block.BlockException;
-import com.divoter.springcloud.sentinel.result.Result;
+import com.divoter.springcloud.result.Result;
 
 public class CustomerBlockExceptionHandler {
 

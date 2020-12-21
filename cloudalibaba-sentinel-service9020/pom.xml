@@ -13,10 +13,20 @@
 
 
     <dependencies>
+        <dependency>
+            <groupId>com.divoter.springcloud</groupId>
+            <artifactId>cloud-api-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <!-- springcloud alibaba sentinel -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+        </dependency>
+        <!-- springcloud alibaba sentinel 持久化到 nacos -->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-datasource-nacos</artifactId>
         </dependency>
         <!-- springcloud alibaba nacos -->
         <dependency>

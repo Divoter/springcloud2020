@@ -2,9 +2,8 @@ package com.divoter.springcloud.sentinel.controller;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
+import com.divoter.springcloud.result.Result;
 import com.divoter.springcloud.sentinel.myHandler.CustomerBlockExceptionHandler;
-import com.divoter.springcloud.sentinel.result.Result;
-import com.divoter.springcloud.sentinel.result.ResultContant;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
