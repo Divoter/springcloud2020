@@ -1,0 +1,20 @@
+server:
+  port: 85
+
+spring:
+  application:
+    name: nacos-sentinel-feign-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+feign:
+  sentinel:
+    enabled: true
