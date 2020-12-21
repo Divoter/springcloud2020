@@ -31,7 +31,7 @@ public class PaymentController {
         dbData.put("3",new Payment(3L,"333333333"));
     }
 
-    @GetMapping("getById/{id}")
+    @GetMapping("/getById/{id}")
     public Result getById(@PathVariable String id){
         return
                 Result.result(
