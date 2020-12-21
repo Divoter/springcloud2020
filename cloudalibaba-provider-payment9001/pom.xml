@@ -10,8 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>cloudalibaba-provider-payment9001</artifactId>
-    <version>1.0</version>
-
 
     <dependencies>
         <dependency>
