@@ -1,8 +1,8 @@
 package com.divoter.springcloud.payment.controller;
 
-import com.divoter.springcloud.payment.model.Payment;
-import com.divoter.springcloud.payment.result.Result;
+import com.divoter.springcloud.model.Payment;
 import com.divoter.springcloud.payment.service.PaymentService;
+import com.divoter.springcloud.result.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 

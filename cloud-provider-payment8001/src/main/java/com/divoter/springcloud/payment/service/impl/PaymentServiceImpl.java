@@ -1,7 +1,7 @@
 package com.divoter.springcloud.payment.service.impl;
 
+import com.divoter.springcloud.model.Payment;
 import com.divoter.springcloud.payment.mapper.PaymentMapper;
-import com.divoter.springcloud.payment.model.Payment;
 import com.divoter.springcloud.payment.service.PaymentService;
 import org.springframework.stereotype.Service;
 

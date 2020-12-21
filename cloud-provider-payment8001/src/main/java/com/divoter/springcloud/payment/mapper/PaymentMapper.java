@@ -1,6 +1,7 @@
 package com.divoter.springcloud.payment.mapper;
 
-import com.divoter.springcloud.payment.model.Payment;
+
+import com.divoter.springcloud.model.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

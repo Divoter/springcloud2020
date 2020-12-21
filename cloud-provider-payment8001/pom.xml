@@ -12,6 +12,11 @@
     <artifactId>cloud-provider-payment8001</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>com.divoter.springcloud</groupId>
+            <artifactId>cloud-api-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <!-- 前端请求后台 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
