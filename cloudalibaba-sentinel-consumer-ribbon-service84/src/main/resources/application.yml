@@ -1,0 +1,2 @@
+service-url:
+  payment: http://nacos-sentinel-payment-provider
