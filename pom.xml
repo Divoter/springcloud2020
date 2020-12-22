@@ -8,12 +8,17 @@
     <artifactId>springcloud2020</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>cloud-api-common</module>
         <module>cloud-provider-payment8001</module>
         <module>cloudalibaba-provider-payment9001</module>
         <module>cloudalibaba-provider-payment9002</module>
         <module>cloudalibaba-consumer-order83</module>
         <module>cloudalibaba-config-client9010</module>
         <module>cloudalibaba-sentinel-service9020</module>
+        <module>cloudalibaba-provider-payment9001</module>
+        <module>cloudalibaba-sentinel-provider-payment9003</module>
+        <module>cloudalibaba-sentinel-provider-payment9004</module>
+        <module>cloudalibaba-sentinel-consumer-feign-service85</module>
         <module>cloudalibaba-sentinel-consumer-ribbon-service84</module>
         <module>cloudalibaba-sentinel-provider-payment9003</module>
         <module>cloud-api-common</module>

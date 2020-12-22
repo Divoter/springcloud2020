@@ -5,7 +5,7 @@
         insert into payment (serial) values (#{serial});
     </insert>
 
-    <resultMap id="BaseResultMap" type="com.divoter.springcloud.payment.model.Payment">
+    <resultMap id="BaseResultMap" type="com.divoter.springcloud.model.Payment">
         <id column="id" jdbcType="BIGINT" property="id" />
         <id column="serial" jdbcType="VARCHAR" property="serial"/>
     </resultMap>
