@@ -19,6 +19,7 @@
         <module>cloudalibaba-sentinel-provider-payment9004</module>
         <module>cloudalibaba-sentinel-consumer-feign-service85</module>
         <module>cloudalibaba-sentinel-consumer-ribbon-service84</module>
+        <module>cloudalibaba-sentinel-datasource-nacos9021</module>
     </modules>
     <packaging>pom</packaging>
 
