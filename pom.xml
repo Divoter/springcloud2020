@@ -22,6 +22,7 @@
         <module>cloudalibaba-sentinel-datasource-nacos9021</module>
         <module>cloudalibaba-seata-order-service9030</module>
         <module>cloudalibaba-seata-stroage-service9040</module>
+        <module>cloudalibaba-seata-account-service9050</module>
     </modules>
     <packaging>pom</packaging>
 
