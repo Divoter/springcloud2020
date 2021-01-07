@@ -22,7 +22,7 @@ public class OrderController {
     @Resource
     private OrderService orderService;
 
-    @GetMapping("/order/create")
+    @GetMapping("/create")
     public Result create(Order order) {
         orderService.create(order);
         return Result.success("订单创建成功");

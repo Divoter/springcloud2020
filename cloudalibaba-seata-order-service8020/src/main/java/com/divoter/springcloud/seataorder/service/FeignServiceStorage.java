@@ -15,6 +15,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface FeignServiceStorage {
 
     //扣库存
-    @PostMapping(value = "/storage/decrease")
+    @PostMapping(value = "/api/storage/decrease")
     Result decrease(@RequestParam("productId") Long productId, @RequestParam("count") Integer count);
 }

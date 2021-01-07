@@ -5,6 +5,7 @@ import com.divoter.springcloud.seataorder.dao.OrderDao;
 import com.divoter.springcloud.seataorder.service.FeignServiceAccount;
 import com.divoter.springcloud.seataorder.service.FeignServiceStorage;
 import com.divoter.springcloud.seataorder.service.OrderService;
+import io.seata.spring.annotation.GlobalTransactional;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
@@ -29,6 +30,7 @@ public class OrderServiceImpl implements OrderService {
 
 
     @Override
+    @GlobalTransactional(name = "study_tx_group", rollbackFor = Exception.class)
     public void create(Order order) {
         //1、新建订单
         log.info("------>开始新建订单");

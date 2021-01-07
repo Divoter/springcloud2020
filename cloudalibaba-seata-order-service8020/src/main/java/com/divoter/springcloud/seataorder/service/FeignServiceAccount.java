@@ -16,6 +16,6 @@ import java.math.BigDecimal;
 @FeignClient(value = "seata-account-service")
 public interface FeignServiceAccount {
     // 减余额
-    @PostMapping(value = "/account/decrease")
+    @PostMapping(value = "/api/account/decrease")
     Result decrease(@RequestParam("userId") Long userId, @RequestParam("money") BigDecimal money);
 }
